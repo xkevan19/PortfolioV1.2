@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects 😍</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="manifest" href="manifest.json">
+
+
+    <!-- Meta Data -->
+    <meta name="description"
+        content="Experienced web developer adept in SQL, data analytics, and UI/UX design, offering tailored solutions from planning to deployment. Specializing in customer-centricity and innovation, with a knack for inspiring others in the dynamic IT sector. Discover how I can elevate your project today.">
+    <meta name="author" content="Kevan Suchit">
+    <meta name="msapplication-TileColor" content="#0075F6">
+    <meta name="theme-color" content="#0075F6">
+
+    <!-- OG Meta Tags -->
+    <meta property="og:title" content="Projects • Kayman" />
+    <meta property="og:url" content="https://xkevan19.github.io/portfolio/projects.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://xkevan19.github.io/portfolio/img/social-sharing.webp" />
+    <meta property="og:image:secure_url" content="https://xkevan19.github.io/portfolio/img/social-sharing.webp" />
+    <meta property="og:image:width" content="420" />
+    <meta property="og:image:height" content="280" />
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+
+    <!-- IBM Plex Sans & Inter Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/media/home.media.css">
+    <link rel="stylesheet" href="assets/css/project.css">
+
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM04G1NSED"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EM04G1NSED');
+    </script>
+
+    <style>
+        .ks-format-container {
+            width: 98%;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h2.ks-title {
+            color: #6b6b6b;
+            padding-left: 40px;
+        }
+
+        .ks-projects_box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        .ks-projects_item {
+            -ms-flex-preferred-size: calc(25% - 30px);
+            flex-basis: calc(25% - 30px);
+            margin: 0 15px 30px;
+            overflow: hidden;
+            border-radius: 28px;
+        }
+
+        .ks-projects-item_link {
+            display: block;
+            padding: 30px 20px;
+            text-decoration: none !important;
+            background-color: #121212;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .ks-projects-item_link:hover,
+        .ks-projects-item_link:hover .ks-projects-item_date {
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        .ks-projects-item_link:hover .ks-projects-item_bg {
+            -webkit-transform: scale(10);
+            -ms-transform: scale(10);
+            transform: scale(10);
+        }
+
+        .ks-projects-item_title {
+            min-height: 20px;
+            margin: 0 0 25px;
+            overflow: hidden;
+            font-weight: bold;
+            text-decoration: none !important;
+            font-size: 20px;
+            color: #FFF;
+            z-index: 1;
+            position: relative;
+        }
+
+        .ks-projects-item_date-box {
+            font-size: 17px;
+            color: #FFF;
+            z-index: 1;
+            position: relative;
+        }
+
+        .ks-projects-item_date {
+            font-weight: bold;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 8px 20px;
+            border-radius: 20px;
+            -webkit-transition: color .5s ease;
+            -o-transition: color .5s ease;
+            transition: color .5s ease
+        }
+
+        .ks-projects-item_bg {
+            height: 128px;
+            width: 128px;
+            background-color: #F27B35;
+            z-index: 1;
+            position: absolute;
+            top: -75px;
+            right: -75px;
+            border-radius: 50%;
+            -webkit-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            transition: all .5s ease;
+        }
+
+        .ks-projects_item:nth-child(2n) .ks-projects-item_bg {
+            background-color: #3597f2;
+        }
+
+        .ks-projects_item:nth-child(3n) .ks-projects-item_bg {
+            background-color: #bc35f2;
+        }
+
+        .ks-projects_item:nth-child(4n) .ks-projects-item_bg {
+            background-color: #5D46E8;
+        }
+
+        .ks-projects_item:nth-child(5n) .ks-projects-item_bg {
+            background-color: #cd3e94;
+        }
+
+        .ks-projects_item:nth-child(6n) .ks-projects-item_bg {
+            background-color: #49caea;
+        }
+
+
+
+        @media only screen and (max-width: 1309px) {
+            .ks-format-container {
+                width: 95%;
+            }
+
+            .ks-projects_item {
+                -ms-flex-preferred-size: calc(50% - 30px);
+                flex-basis: calc(50% - 30px);
+            }
+
+            .ks-projects-item_title {
+                font-size: 24px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .ks-format-container {
+                width: 89%;
+            }
+
+        }
+
+        @media only screen and (max-width: 639px) {
+            .ks-projects_item {
+                -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+            }
+
+            .ks-projects-item_title {
+                min-height: 72px;
+                line-height: 1;
+
+                font-size: 24px;
+            }
+
+            .ks-projects-item_link {
+                padding: 22px 40px;
+            }
+
+            .ks-projects-item_date-box {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body class="hero dark-theme dark-mode">
+    <div class="site_content">
+        <!-- xx Preloader xx -->
+        <div id="preloader">
+            <div id="container" class="container-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <div data-preloader-text="K" class="characters">K</div>
+                        <div data-preloader-text="E" class="characters">E</div>
+                        <div data-preloader-text="V" class="characters">V</div>
+                        <div data-preloader-text="A" class="characters">A</div>
+                        <div data-preloader-text="N" class="characters">N</div>
+                        <div data-preloader-text="&nbsp S" class="characters">&nbsp S</div>
+                        <div data-preloader-text="." class="characters">.</div>
+                    </div>
+                </div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+        <!-- xx Preloader End xx -->
+
+        <!-- xx Menu Section xx -->
+        <div class="main_container">
+            <header class="menu">
+                <div class="logo_main">
+                    <a href="index.html">
+                        <img class="logo" src="assets/img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav aria-label="Site menu" class="nav_item">
+                    <ul class="list">
+                        <li class="menu-btn">
+                            <a href="index.html">HOME
+                                <span class="blue-line"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper" id="wrapper">
+                <nav aria-label="Mobile menu" class="mobile-nav">
+                    <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
+                    <div class="mobile-hub">
+                        <label class="m-menu__toggle" for="menu">
+                            <svg class="hub" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                stroke-linecap="butt">
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        </label>
+                        <div class="">
+                            <a href="index.html">
+                                <img class="mobile-view-logo" src="assets/img/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="open-mobile-menu">
+                        <label class="m-menu__overlay" for="menu"></label>
+                        <div class="m-menu" id="run">
+                            <div class="m-menu__header">
+                                <a href="index.html">
+                                    <img class="mobile-view-logo" src="assets/img/logo.svg" alt="logo">
+                                </a>
+                                <label class="m-menu__toggle close" for="menu">
+                                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                        stroke-linecap="butt">
+                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                    </svg>
+                                </label>
+                            </div>
+                            <ul class="navbar-collapse">
+                                <li class="icon-menu sub-icon-menu">
+                                    <h4>
+                                        <a href="index.html">HOME</a>
+                                    </h4>
+                                </li>
+                                <li class="menu-contact">
+                                    <h1 class="share-text-m">SHARE</h1>
+                                    <p class="share-list-text-m"><a href="https://www.facebook.com/">Fb.</a></p>
+                                    <p class="share-list-text-m"><a href="https://twitter.com/">Tw.</a></p>
+                                    <p class="share-list-text-m"><a href="https://www.instagram.com/">Ins.</a></p>
+                                    <p class="share-list-text-m"><a href="https://www.linkedin.com">Li.</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- xx Menu Section End xx -->
+
+            <!-- Dark/Light Mode Switcher -->
+            <div class="dark-light-main">
+                <input id="toggle" class="toggle" type="checkbox" aria-checked="true">
+            </div>
+
+            <!-- xx Website Projects xx -->
+            <div class="ks-format-container">
+                <h2 class="ks-title">Website Projects</h2>
+                <div class="ks-projects_box">
+                    <div class="ks-projects_item">
+                        <a target="_blank" href="https://www.figma.com/proto/ImF6yi5wCG9CqzWrRRfMSK/Kayman?page-id=0%3A1&type=design&node-id=1-3&viewport=161%2C393%2C0.19&t=VRXdMZmlLVpOLtEJ-1&scaling=min-zoom&starting-point-node-id=1%3A3&mode=design" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Kayman
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ks-projects_item">
+                        <a target="_blank" href="https://xcv.netlify.app" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Beyond Space
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ks-projects_item">
+                        <a target="_blank" href="https://samsonlinemarket.com" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                SAMS Online Market
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ks-projects_item">
+                        <a target="_blank" href="https://www.figma.com/proto/OCNW68RsVaNCKgiTTYtb3x/Luxfit?page-id=0%3A1&type=design&node-id=1-2&viewport=264%2C347%2C0.09&t=RbUPfWZQXpViRnPi-1&scaling=min-zoom&starting-point-node-id=128%3A264&mode=design" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Luxfit
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- xx Website Projects xx -->
+
+            <!-- xx App Design Projects xx -->
+            <div class="ks-format-container">
+                <h2 class="ks-title">App Design Projects</h2>
+                <div class="ks-projects_box">
+                    <div class="ks-projects_item">
+                        <a target="_blank" href="https://www.figma.com/proto/WL8taEGoMVEaeQtvAL5uYR/miamuse-main?page-id=0%3A1&type=design&node-id=8-687&viewport=808%2C551%2C0.28&t=pKj06LKwL5yMWYl5-1&scaling=scale-down&starting-point-node-id=8%3A687&mode=design" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Miamuse
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ks-projects_item">
+                        <a target="_blank" href="https://www.figma.com/proto/WS1Rrrn53UiARtrLrG1zHA/Vocalz?page-id=0%3A1&type=design&node-id=3-275&viewport=718%2C473%2C0.86&t=WylN4wZodINkytwr-1&scaling=scale-down&mode=design" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Vocalz
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ks-projects_item">
+                        <a target="_blank" href="https://www.figma.com/proto/d0EnxIgUAguPCGbyTh2liu/Pathway?page-id=0%3A1&type=design&node-id=803-193&viewport=462%2C738%2C0.14&t=hGwEcjRQNYtKiQC7-1&scaling=scale-down&starting-point-node-id=803%3A193&mode=design" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Pathway
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- xx App Design Projects xx -->
+
+            <!-- xx Python Projects xx -->
+            <div class="ks-format-container">
+                <h2 class="ks-title">Python Projects</h2>
+                <div class="ks-projects_box">
+                    <div class="ks-projects_item">
+                        <a href="https://github.com/xkevan19/World-Largest-Banks" target="_blank" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                World Largest Banks
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ks-projects_item">
+                        <a href="https://github.com/xkevan19/RevenueAnalysisTool" target="_blank" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Revenue Analysis Tool
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ks-projects_item">
+                        <a href="https://github.com/xkevan19/Income-OCR-Calculator" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Income Calculator
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ks-projects_item">
+                        <a href="https://github.com/xkevan19/Data-Visualization-Dashboard-for-Stock-Analysis" class="ks-projects-item_link">
+                            <div class="ks-projects-item_bg"></div>
+                            <div class="ks-projects-item_title">
+                                Data Visualization Dashboard for Stock Analysis
+                            </div>
+                            <div class="ks-projects-item_date-box">
+                                <span class="ks-projects-item_date">
+                                    View Project
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- xx Python Projects xx -->
+
+            <!-- xx Email Section xx -->
+            <Section class="overflow-hidden">
+                <div class="all-page-border2">
+                    <div class="email-bg">
+                        <div class="email-spacer">
+                            <div class="yellow_circle"></div>
+                            <h2 class="email-section" data-aos="fade-up">
+                                <a href="mailto:codewithkevan@gmail.comv">codewithkevan@gmail.com</a>
+                            </h2>
+                            <p class="design_text creative_text tell_us" data-aos="fade-up">Let's collaborate! 🤩
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+            <!-- xx Email Section Endxx -->
+
+            <!-- xx Form Section xx -->
+            <section id="contact">
+                <div class="all-page-border2">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 form-spacer">
+                            <div class="yellow_circle"></div>
+                            <div class="half-circle-end">
+                                <img class="half-circle-end-yellow object" src="assets/img/half-circle-blue.svg"
+                                    data-value="-1" alt="blue-multiplication">
+                                <img class="half-circle-end-black object" data-value="1"
+                                    src="assets/img/half-circle-black.svg" alt="black-multiplication">
+                            </div>
+                            <h2 class="get-in-touch get-touch" id="send" data-aos="fade-up">GET IN TOUCH</h2>
+                            <p class="design_text creative_text touch" data-aos="fade-up">Fill out my form
+                                below and send me an email.
+                            </p>
+                            <form class="form-main" action="https://formsubmit.co/ddd81ebdd3b5ae9207abff5f97f08bf6" method="POST" autocomplete="off" name="Request">
+                                <div class="form">
+                                    <input type="text" name="name" id="name" required autocomplete="off">
+                                    <label class="label-name" for="name">
+                                        <span class="content-name">Name*</span>
+                                    </label>
+                                </div>
+                                <div class="form">
+                                    <input type="email" name="email" id="email" required autocomplete="off">
+                                    <label class="label-name" for="email">
+                                        <span class="content-name">E-mail*</span>
+                                    </label>
+                                </div>
+                                <div class="form">
+                                    <input type="text" name="phone" id="phone" required autocomplete="off">
+                                    <label class="label-name" for="phone">
+                                        <span class="content-name">Phone Number</span>
+                                    </label>
+                                </div>
+                                <div class="form" id="form2">
+                                    <input type="text" name="message" id="message" required autocomplete="off">
+                                    <label class="label-name" for="message">
+                                        <span class="content-name" id="content-name2">Message*</span>
+                                    </label>
+                                </div>
+                                <input type="text" name="_honey" style="display:none">
+                                <div class="button-required">
+                                    <button class="send-btn">
+                                        Send Message
+                                        <span class="send-span"></span>
+                                    </button>
+                                    <p class="required">*Marked fields are required to fill.</p>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 form-spacer2 active_menus" id="active_menus">
+                            <div class="yellow_circle" id="spacing-circle"></div>
+                            <h2 class="catch-me" data-aos="fade-up">CATCH ME HERE</h2>
+                            <h3 class="d-none">hidden</h3>
+                            <div class="email-phone" data-aos="fade-up">
+                                <div class="contact-box2">
+                                    <div class="phone-main">
+                                        <img class="location" src="assets/img/location.svg" alt="location">
+                                        <div class="big-blue-circle4"></div>
+                                    </div>
+                                    <p class="form-contact"><a href="">Trinidad &amp; Tobago</a></p>
+                                </div>
+                            </div>
+                            <h4 class="follow-me-text" data-aos="fade-up">Follow me</h4>
+                            <div class="social-media-icon" data-aos="fade-up">
+                                <div class="circle-border">
+                                    <a href="https://www.figma.com/@kevan21">
+                                        <img class="social-icons" src="assets/img/figma.svg" alt="figma-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://github.com/xkevan19">
+                                        <img class="social-icons" src="assets/img/github.svg" alt="github-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://www.linkedin.com/in/kevansuchit/">
+                                        <img class="social-icons" src="assets/img/LinkedIn.svg" alt="linkedin-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://www.behance.net/xkevanx">
+                                        <img class="social-icons" src="assets/img/be-icon.svg" alt="be-icon">
+                                    </a>
+                                </div>
+                                <div class="multiplication-frame-footer">
+                                    <img class="black-multiplication-form object" data-value="1"
+                                        src="assets/img/black-multipliction.svg" alt="black-multiplication">
+                                    <img class="blue-multiplication-form object"
+                                        src="assets/img/blue-multiplication.webp" data-value="-1"
+                                        alt="blue-multiplication">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- xx Form Section End xx -->
+
+            <!-- xx Footer Section xx -->
+            <footer>
+                <div class="all-page-border2 border-bottom-0">
+                    <p class="reserved"> © Kevan Suchit <span id="copyright-year"></span>, All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <!-- xx Footer Section End xx -->
+
+        <!-- xx Bottom To Top Button xx -->
+        <button class="bottom-top-button"><i class="fa-sharp fa-solid fa-arrow-up fa-xl"></i></button>
+        <!-- xx Bottom To Top Button End xx -->
+
+        <!-- xx Cusrsor xx -->
+        <div class="element">
+            <div class="element-item"></div>
+        </div>
+        <!-- xx Cusrsor End xx -->
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>    
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="assets/jquery/aos.js"></script>
+    <script src="assets/jquery/plugins.js"></script>
+    <script src="assets/jquery/strict.js"></script>
+    <script src="assets/jquery/jqueryboost.js"></script>
+    <script src="assets/jquery/slick.min.js"></script>
+    <script src="assets/jquery/index.js"></script>
+    <script>
+        AOS.init({
+            duration: 1600,
+        })
+        $(window).on("scroll", function () {
+            AOS.init();
+        });
+        $(document).ready(function () {
+            $('.hero').addClass('dark-theme dark-mode');
+        });
+    </script>
+    <script>
+        // Get current year
+        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Meta Data -->
+    <meta name="description"
+        content="Explore the intersection of dreams and reality in our blog, where creativity transforms ideas into stunning web solutions. Join us on a journey of inspiration and innovation as we delve into the art of web design and development. Let's turn dreams into digital realities together">
+    <meta name="author" content="Kevan Suchit">
+    <meta name="msapplication-TileColor" content="#0075F6">
+    <meta name="theme-color" content="#0075F6">
+
+    <!-- OG Meta Tags -->
+    <meta property="og:title" content="News" />
+    <meta property="og:url" content="https://xkevan19.github.io/portfolio/news.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://xkevan19.github.io/portfolio/img/social-sharing.webp" />
+    <meta property="og:image:secure_url" content="https://xkevan19.github.io/portfolio/img/social-sharing.webp" />
+    <meta property="og:image:width" content="420" />
+    <meta property="og:image:height" content="280" />
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+
+    <!-- IBM Plex Sans & Inter Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/media/home.media.css">
+    <link rel="stylesheet" href="assets/css/news_single.css">
+    <link rel="stylesheet" href="assets/css/news.css">
+
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM04G1NSED"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EM04G1NSED');
+    </script>
+</head>
+
+<body class="hero dark-mode">
+    <div class="site_content">
+        <!-- xx Preloader xx -->
+        <div id="preloader">
+            <div id="container" class="container-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <div data-preloader-text="K" class="characters">K</div>
+                        <div data-preloader-text="E" class="characters">E</div>
+                        <div data-preloader-text="V" class="characters">V</div>
+                        <div data-preloader-text="A" class="characters">A</div>
+                        <div data-preloader-text="N" class="characters">N</div>
+                        <div data-preloader-text="&nbsp S" class="characters">&nbsp S</div>
+                        <div data-preloader-text="." class="characters">.</div>
+                    </div>
+                </div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+        <!-- xx Preloader End xx -->
+
+        <!-- xx Menu Section xx -->
+        <div class="main_container">
+            <header class="menu">
+                <div class="logo_main">
+                    <a href="index.html">
+                        <img class="logo" src="assets/img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav aria-label="Site menu" class="nav_item">
+                    <ul class="list">
+                        <li class="menu-btn">
+                            <a href="index.html">HOME
+                                <span class="yellow-line"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper" id="wrapper">
+                <nav aria-label="Mobile menu" class="mobile-nav">
+                    <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
+                    <div class="mobile-hub">
+                        <label class="m-menu__toggle" for="menu">
+                            <svg class="hub" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                stroke-linecap="butt">
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        </label>
+                        <div class="">
+                            <a href="index.html">
+                                <img class="mobile-view-logo" src="assets/img/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="open-mobile-menu">
+                        <label class="m-menu__overlay" for="menu"></label>
+                        <div class="m-menu" id="run">
+                            <div class="m-menu__header">
+                                <a href="index.html">
+                                    <img class="mobile-view-logo" src="assets/img/logo.svg" alt="logo">
+                                </a>
+                                <label class="m-menu__toggle close" for="menu">
+                                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                        stroke-linecap="butt">
+                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                    </svg>
+                                </label>
+                            </div>
+                            <ul class="navbar-collapse">
+                                <li class="icon-menu sub-icon-menu">
+                                    <h4>
+                                        <a href="index.html">HOME</a>
+                                    </h4>
+                                <li class="menu-contact">
+                                    <h1 class="share-text-m">CONNECT</h1>
+                                    <p class="share-list-text-m"><a href="https://www.linkedin.com/in/kevansuchit/"
+                                            target="_blank">LinkedIn.</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- xx Menu Section End xx -->
+
+            <!-- Dark/Light Mode Switcher -->
+            <div class="dark-light-main">
+                <input id="toggle" class="toggle" type="checkbox" aria-checked="true">
+            </div>
+
+            <!-- xx Main Page xx -->
+            <section class="overflow-hidden">
+                <div class="main-spacer">
+                    <div class="position-relative">
+                        <h2 class="about-text" data-aos="fade-up">NEWS</h2>
+                        <p class="unconventional2" data-aos="fade-up">Here, we embark on an extraordinary journey into
+                            the world of web design and development, exploring the magical process of bringing ideas to
+                            life. From concept to creation, join us as we unravel the mysteries of creativity and
+                            innovation, turning dreams into dazzling digital realities. Get ready to be inspired,
+                            challenged, and amazed as we dive deep into the art and science of web design.</p>
+                    </div>
+                    <div class="slider2 hover15" id="portfolio_horizontal">
+                        <div class="slider-space">
+                            <h3 class="date">April 14th, 2024</h3>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="a-fresh-look-for-a-new-chapter.html">
+                                        <img class="news-img1 inner-img"
+                                            src="assets/img/ramon-salinero-vEE00Hx5d0Q-unsplash-400x.webp"
+                                            alt="news-img1">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="a-fresh-look-for-a-new-chapter.html">A Fresh Look for a New Chapter</a>
+                            </h3>
+                            <p class="vitae">Welcome, fellow creatives, developers, and visitors alike! Today marks an
+                                exciting
+                                chapter in the journey of my digital presence. After three years of showcasing my work
+                                with the
+                                foundational elements of Projects, Resume, and Request CV, I am thrilled to unveil the
+                                new face of my portfolio website.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="a-fresh-look-for-a-new-chapter.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h3 class="date">April 15th, 2024</h3>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="a-journey-of-innovation.html">
+                                        <img class="news-img1 inner-img"
+                                            src="assets/img/paul-frenzel-MnHQMzC6n-o-unsplash-400x.webp"
+                                            alt="news-img2">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="a-journey-of-innovation.html">A Journey of Innovation</a>
+                            </h3>
+                            <p class="vitae">Step into the realm of web application development, where
+                                creativity meets functionality, and innovation is the guiding force. Embark on a journey
+                                as you
+                                delve deep into the intricacies of crafting web applications that not only meet but
+                                exceed user
+                                expectations. Over the course of two years, I've traversed through...</p>
+                            <h4 class="read_more">
+                                <a href="a-journey-of-innovation.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h3 class="date">April 15th, 2024</h3>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="unveiling-the-magic-of-ui-ux-design.html">
+                                        <img class="news-img1 inner-img"
+                                            src="assets/img/milad-fakurian-58Z17lnVS4U-unsplash-400x.webp"
+                                            alt="news-img3">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="unveiling-the-magic-of-ui-ux-design.html">Unveiling the Magic of UI/UX
+                                    Design</a>
+                            </h3>
+                            <p class="vitae">Are you ready to embark on a captivating journey into the realm of
+                                UI/UX design? Imagine a world where pixels dance and user experiences transcend the
+                                ordinary.
+                                Welcome to the enchanting domain where...
+                            </p>
+                            <h4 class="read_more"><a href="unveiling-the-magic-of-ui-ux-design.html">READ MORE</a></h4>
+                        </div>
+                        <div class="slider-space">
+                            <h3 class="date">April 15th, 2024</h3>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="turning-prospects-into-customers.html">
+                                        <img class="news-img1 inner-img"
+                                            src="assets/img/terry-vlisidis-RflgrtzU3Cw-unsplash-400x.webp"
+                                            alt="news-img4">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="turning-prospects-into-customers.html">Turning Prospects into Customers</a>
+                            </h3>
+                            <p class="vitae">Are you ready to revolutionize your sales game and transform
+                                prospects into loyal customers? Join me on a journey into the art of pre-sale
+                                engineering, where
+                                strategic thinking meets customer-centric solutions.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="turning-prospects-into-customers.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h3 class="date">April 15th, 2024</h3>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="navigating-the-ever-evolving-IT-landscape.html">
+                                        <img class="news-img1 inner-img"
+                                            src="assets/img/ethan-sykes-iISyBKOT2D0-unsplash-400x.webp" alt="news-img5">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands"><a href="navigating-the-ever-evolving-IT-landscape.html">Navigating the
+                                    Ever-Evolving IT Landscape</a>
+                            </h3>
+                            <p class="vitae">Welcome to the wild ride of the IT landscape, where change is the
+                                only constant and innovation reigns supreme. Are you ready to embark on an adventure
+                                through the
+                                fast-paced world of technology with me?
+                            </p>
+                            <h4 class="read_more">
+                                <a href="navigating-the-ever-evolving-IT-landscape.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h3 class="date">April 15th, 2024</h3>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="bringing-your-web-dreams-to-life.html">
+                                        <img class="news-img1 inner-img"
+                                            src="assets/img/javier-miranda-MrWOCGKFVDg-unsplash-400x.webp"
+                                            alt="news-img6">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands"><a href="bringing-your-web-dreams-to-life.html">Bringing Your Web Dreams
+                                    to Life</a>
+                            </h3>
+                            <p class="vitae">Are you ready to embark on a thrilling adventure from dream to
+                                reality? Join me as we journey through the magical realm where web dreams come true!
+                                With a blend of
+                                creativity and innovation...
+                            </p>
+                            <h4 class="read_more">
+                                <a href="bringing-your-web-dreams-to-life.html">READ MORE</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- xx Main Page  End xx -->
+
+            <!-- xx Email Section xx -->
+            <Section class="overflow-hidden">
+                <div class="all-page-border2">
+                    <div class="email-bg">
+                        <div class="email-spacer">
+                            <div class="yellow_circle"></div>
+                            <h2 class="email-section" data-aos="fade-up">
+                                <a href="mailto:codewithkevan@gmail.comv">codewithkevan@gmail.com</a>
+                            </h2>
+                            <p class="design_text creative_text tell_us" data-aos="fade-up">Send me an email!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+            <!-- xx Email Section End xx -->
+
+            <!-- xx Form Section xx -->
+            <section id="contact">
+                <div class="all-page-border2">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 form-spacer">
+                            <div class="yellow_circle"></div>
+                            <div class="half-circle-end">
+                                <img class="half-circle-end-yellow object" src="assets/img/half-circle-blue.svg"
+                                    data-value="-1" alt="blue-multiplication">
+                                <img class="half-circle-end-black object" data-value="1"
+                                    src="assets/img/half-circle-black.svg" alt="black-multiplication">
+                            </div>
+                            <h2 class="get-in-touch get-touch" id="send" data-aos="fade-up">GET IN TOUCH</h2>
+                            <p class="design_text creative_text touch" data-aos="fade-up">Fill out my form
+                                below and send me an email.
+                            </p>
+                            <form class="form-main" action="https://formsubmit.co/ddd81ebdd3b5ae9207abff5f97f08bf6"
+                                method="POST" autocomplete="off" name="Request">
+                                <div class="form">
+                                    <input type="text" name="name" id="name" required autocomplete="off">
+                                    <label class="label-name" for="name">
+                                        <span class="content-name">Name*</span>
+                                    </label>
+                                </div>
+                                <div class="form">
+                                    <input type="email" name="email" id="email" required autocomplete="off">
+                                    <label class="label-name" for="email">
+                                        <span class="content-name">E-mail*</span>
+                                    </label>
+                                </div>
+                                <div class="form">
+                                    <input type="text" name="phone" id="phone" required autocomplete="off">
+                                    <label class="label-name" for="phone">
+                                        <span class="content-name">Phone Number</span>
+                                    </label>
+                                </div>
+                                <div class="form" id="form2">
+                                    <input type="text" name="message" id="message" required autocomplete="off">
+                                    <label class="label-name" for="message">
+                                        <span class="content-name" id="content-name2">Message*</span>
+                                    </label>
+                                </div>
+                                <input type="text" name="_honey" style="display:none">
+                                <div class="button-required">
+                                    <button class="send-btn">
+                                        Send Message
+                                        <span class="send-span"></span>
+                                    </button>
+                                    <p class="required">*Marked fields are required to fill.</p>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 form-spacer2 active_menus" id="active_menus">
+                            <div class="yellow_circle" id="spacing-circle"></div>
+                            <h2 class="catch-me" data-aos="fade-up">CATCH ME HERE</h2>
+                            <h3 class="d-none">hidden</h3>
+                            <div class="email-phone" data-aos="fade-up">
+                                <div class="contact-box2">
+                                    <div class="phone-main">
+                                        <img class="location" src="assets/img/location.svg" alt="location">
+                                        <div class="big-blue-circle4"></div>
+                                    </div>
+                                    <p class="form-contact"><a href="">Trinidad &amp; Tobago</a></p>
+                                </div>
+                            </div>
+                            <h4 class="follow-me-text" data-aos="fade-up">Follow me</h4>
+                            <div class="social-media-icon" data-aos="fade-up">
+                                <div class="circle-border">
+                                    <a href="https://www.figma.com/@kevan21">
+                                        <img class="social-icons" src="assets/img/figma.svg" alt="figma-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://github.com/xkevan19">
+                                        <img class="social-icons" src="assets/img/github.svg" alt="github-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://www.linkedin.com/in/kevansuchit/">
+                                        <img class="social-icons" src="assets/img/LinkedIn.svg" alt="linkedin-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://www.behance.net/xkevanx">
+                                        <img class="social-icons" src="assets/img/be-icon.svg" alt="be-icon">
+                                    </a>
+                                </div>
+                                <div class="multiplication-frame-footer">
+                                    <img class="black-multiplication-form object" data-value="1"
+                                        src="assets/img/black-multipliction.svg" alt="black-multiplication">
+                                    <img class="blue-multiplication-form object"
+                                        src="assets/img/blue-multiplication.webp" data-value="-1"
+                                        alt="blue-multiplication">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- xx Form Section End xx -->
+
+            <!-- xx Footer Section xx -->
+            <footer>
+                <div class="all-page-border2 border-bottom-0">
+                    <p class="reserved"> © Kevan Suchit <span id="copyright-year"></span>, All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <!-- xx Footer Section End xx -->
+
+        <!-- xx Bottom To Top Button xx -->
+        <button class="bottom-top-button"><i class="fa-sharp fa-solid fa-arrow-up fa-xl"></i></button>
+        <!-- xx Bottom To Top Button End xx -->
+
+        <!-- xx Cursor xx -->
+        <div class="element">
+            <div class="element-item"></div>
+        </div>
+        <!-- xx Cursor End xx -->
+    </div>
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="assets/jquery/aos.js"></script>
+    <script src="assets/jquery/plugins.js"></script>
+    <script src="assets/jquery/strict.js"></script>
+    <script src="assets/jquery/jqueryboost.js"></script>
+    <script src="assets/jquery/slick.min.js"></script>
+    <script src="assets/jquery/index.js"></script>
+    <script>
+        AOS.init({
+            duration: 1600,
+        })
+        $(window).on("scroll", function () {
+            AOS.init();
+        });
+        $(document).ready(function () {
+            $('.hero').addClass('dark-theme dark-mode');
+        });
+    </script>
+
+    <script>
+        // Get current year
+        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+    </script>
+</body>

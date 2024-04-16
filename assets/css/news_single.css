@@ -1,0 +1,381 @@
+/*------------------------------------------------------------------
+
+  Project: Kevan S. Portfolio
+  Author: Kevan S.
+  Last change: 12/04/2024 
+  Version: 1.2
+  Primary use: 
+
+------------------------------------------------------------------ */
+
+/*-----------------------[Table of contents]------------------------ 
+
+1.Default CSS 
+2. Main Page CSS
+3. Second Section CSS
+4. Third Section CSS
+------------------------------------------------------------------ */
+
+/************************* 1.Default CSS **************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Inter", sans-serif;
+}
+
+/************************* Default CSS End **************************/
+
+/************************* 2. Main Page CSS **************************/
+.singal-top-space {
+    padding: 100px 0;
+}
+
+.half-circle-frame3 {
+    position: absolute;
+    top: 137px;
+    right: 140px;
+}
+
+.news-main-text {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+.bootstrap {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 60px;
+    line-height: 80px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.average {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.main_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.news-single-img {
+    max-width: 100%;
+}
+
+.news-single-img.mobile-img {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .news-single-img.desktop-img {
+        display: none;
+    }
+    .news-single-img.mobile-img {
+        display: block;
+    }
+}
+
+.small-multiplication {
+    position: absolute;
+    left: 20px;
+    top: 138px;
+}
+
+.circle-frame2 {
+    position: absolute;
+    right: 70px;
+    bottom: 60px;
+    animation: rotate-animation2 10s infinite linear;
+}
+
+@keyframes rotate-animation2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.share-list2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 100px 0;
+}
+
+.dots-square3 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.black-dots-frame4 {
+    position: absolute;
+    left: 5px;
+    top: 20px;
+}
+
+.black-dots4 {
+    filter: var(--svg-color);
+}
+
+.volutpat2 {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+}
+
+.skill-list_news {
+    padding-top: 40px;
+}
+
+.skill-list_news ul li {
+    display: flex;
+    align-items: stretch;
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.skill-list_news ul li:before {
+    content: "•";
+    font-size: 30pt;
+    color: var(--text-color);
+    padding-right: 20px;
+}
+
+/************************* 3. Second Section CSS **************************/
+.qote-bg {
+    background-image: url(..//img/shapes-bg.svg);
+    background-size: cover;
+    height: 100%;
+    animation: animate 10s linear infinite;
+}
+
+body.dark-mode .qote-bg {
+    background-image: url(..//img/shape-bg-black.png);
+}
+
+.qote-space {
+    padding: 100px 0;
+}
+
+.qote-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qote-svg-main {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.better {
+    padding: 60px 0px 40px 0px;
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 48px;
+    line-height: 72px;
+    margin: 0;
+}
+
+.lewis-bass {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.spce-top {
+    padding: 50px 0;
+}
+
+/************************* 4. Third Section CSS **************************/
+.tortor {
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.tortor1 {
+    padding-bottom: 15px;
+}
+
+h3.article-subtitle {
+    padding: 10px 0 10px 0;
+    color: #a8a8a8;
+}
+
+.circle_news_yellow {
+    position: relative;
+    rotate: 80deg;
+    width: 80px;
+}
+
+.circle_news_black {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    filter: var(--svg-color);
+    rotate: 80deg;
+    width: 80px;
+}
+
+.text2-section {
+    max-width: 900px;
+    left: 23%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-btn button {
+    cursor: pointer;
+    padding: 12px 36px;
+    background-color: #0075F6;
+    color: #ffffff;
+    border: none;
+}
+
+.article-btn button:focus {
+    outline: none;
+}
+
+.article-btn button:hover {
+    background-color: #252530;
+    transform: translateY(-7px);
+}
+
+.simone-img-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simone-img {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.post-img {
+    max-width: 80%;
+    padding: 20px;
+}
+
+@media (max-width: 1400px) {
+    .post-img {
+        max-width: 100%;
+        padding: 20px;
+    }
+    .text2-section {
+        max-width: 100%;
+        left: 0%;
+    }
+}
+
+.traingle-frame4 {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+
+.traingle-yellow-news {
+    position: relative;
+}
+
+.traingle-black-news {
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: var(--svg-color);
+}
+
+.small-half-circle {
+    position: absolute;
+    right: -5px;
+    bottom: -110px;
+}
+
+.half2-circle-like {
+    position: absolute;
+    bottom: 15%;
+    left: 4%;
+}
+
+.text-prev a {
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    text-decoration: none;
+}
+
+.build a {
+    color: var(--secondary-color);
+    text-align: right;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.nextprev {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.nextprev-section {
+    max-width: 586px;
+    width: 100%;
+}
+
+.nextprev-section2 {
+    text-align: right;
+}
