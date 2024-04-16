@@ -40,11 +40,11 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/",
+    "start_url": "/index.html",
     "background_color": "#040405",
     "theme_color": "#0075F6",
     "display": "standalone",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "prefer_related_applications": false,
     "related_applications": [],
     "scope": "/",
